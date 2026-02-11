@@ -4,7 +4,7 @@ from aiogram import Bot, Dispatcher
 from aiogram.types import Message
 from aiogram.filters import CommandStart
 
-BOT_TOKEN = os.getenv("8593187949:AAEIt1yRfAwNctcc4uSUh2VpizaovD9lQuc")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 if not BOT_TOKEN:
     raise ValueError("❌ Ошибка: Не найден токен бота!")
